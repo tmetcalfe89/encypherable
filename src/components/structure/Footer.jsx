@@ -13,12 +13,7 @@ export default function Footer() {
         >
           <img src={coinJar} className="logo" />
         </a>
-        <span
-          onClick={() => setCookieEaten(true)}
-          data-tooltip="JK we don't use cookies"
-        >
-          🍪
-        </span>
+        <span data-tooltip="JK we don't use cookies">🍪</span>
       </div>
     </footer>
   );
